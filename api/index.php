@@ -1,4 +1,3 @@
-<?php
-// api/index.php
-// phpinfo();
-echo "Hello World from PHP vercel";
+<?php declare(strict_types = 1);
+
+phpinfo(INFO_ALL & ~INFO_ENVIRONMENT & ~INFO_CONFIGURATION & ~INFO_VARIABLES);
